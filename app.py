@@ -2,7 +2,7 @@ import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import openai
 
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = os.environ['6163269434:AAEvXKbI7MvJeeBFn0Ct3aJcdZMjCkpF7NU']
 
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Olá! Eu sou um bot baseado na OpenAI. Como posso ajudá-lo?")
