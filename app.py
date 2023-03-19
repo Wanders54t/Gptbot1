@@ -34,7 +34,7 @@ def main():
 
     updater.start_webhook(listen="0.0.0.0", port=int(os.environ.get('PORT', 5000)), url_path=os.environ['6163269434:AAEvXKbI7MvJeeBFn0Ct3aJcdZMjCkpF7NU'])
 
-    updater.bot.setWebhook("https://{}.herokuapp.com/{}".format(os.environ['chatgpt09'], os.environ['6163269434:AAEvXKbI7MvJeeBFn0Ct3aJcdZMjCkpF7NU']))
+    updater.bot.setWebhook("https://{}.herokuapp.com/{}".format(os.environ['chatopenai0'], os.environ['6163269434:AAEvXKbI7MvJeeBFn0Ct3aJcdZMjCkpF7NU']))
 
     updater.idle()
 
