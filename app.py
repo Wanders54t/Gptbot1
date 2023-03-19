@@ -23,8 +23,8 @@ def main():
 
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
 
-    updater.start_webhook(listen="0.0.0.0", port=int(os.environ.get('PORT', 5000)), url_path=os.environ['TELEGRAM_TOKEN'])
-    updater.bot.setWebhook("https://{}.herokuapp.com/{}".format(os.environ['HEROKU_APP_NAME'], os.environ['TELEGRAM_TOKEN']))
+    updater.start_webhook(listen="0.0.0.0", port=int(os.environ.get('PORT', 5000)), url_path=os.environ['RQJB57WNTYMNJAZR4UXD3E3QOCPPAOMB'])
+    updater.bot.setWebhook("https://{}.herokuapp.com/{}".format(os.environ['chatgpt09'], os.environ['RQJB57WNTYMNJAZR4UXD3E3QOCPPAOMB']))
     updater.idle()
 
 if __name__ == '__main__':
