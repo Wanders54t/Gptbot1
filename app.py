@@ -15,7 +15,7 @@ def echo(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text=message)
 
 def main():
-    updater = Updater(os.environ['TELEGRAM_TOKEN'], use_context=True)
+    updater = Updater(os.environ['RQJB57WNTYMNJAZR4UXD3E3QOCPPAOMB'], use_context=True)
 
     dp = updater.dispatcher
 
