@@ -38,7 +38,7 @@ def main():
 
     updater.idle()
 
-if __flask__ == "__main__":
+if __name__ == "__main__":
 
     app.run()
 
