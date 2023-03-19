@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 import openai
 
-openai.api_key = os.environ['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']
+openai.api_key = os.environ['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']
 
 def start(update, context):
 
